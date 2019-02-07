@@ -1,5 +1,5 @@
 Сайт Строительной компании "СОЮЗ"
-https://radaana.github.io/SK-Soyuz/build.index.html
+https://radaana.github.io/SK-Soyuz/build/index.html
 
 ----------------------------
 
