@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700&amp;amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>ООО СК Союз</title>
@@ -15,17 +14,17 @@
   <body>
     <div class="wrapper">
       <div class="maincontent">
-        <section class="greeting section__active">
+        <section class="greeting section__active" id="greeting">
           <header class="header">
             <div class="header__top">
-              <div class="logo"><img class="img" src="img/logo.png" alt="Логотип СК Союз"></div>
+              <div class="logo logo--header"><img class="img" src="img/logo.png" alt="Логотип СК Союз"></div>
               <nav class="menu header__menu">
                 <ul class="menu__list">
-                  <li class="menu__item"><a class="menu__link" href="#" data-scroll-to="1">О компании</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#" data-scroll-to="2">Виды работ</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#" data-scroll-to="3">Наши клиенты</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#" data-scroll-to="4">Достижения и планы развития</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#" data-scroll-to="5">Примеры объектов</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#about">О компании</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#wedo">Виды работ</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#clients">Наши клиенты</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#achievements">Достижения и планы развития</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#objects">Примеры объектов</a></li>
                 </ul>
               </nav>
               <div class="header__button">
@@ -35,8 +34,10 @@
               </div>
             </div>
             <div class="header__bottom">
-              <h1 class="greeting__title">ООО «СК СОЮЗ»</h1>
-              <p class="greeting__subtitle">Гарантируем своевременную и качественную сдачу объектов </p>
+              <div class="header__text">
+                <h1 class="header__title">ООО «СК СОЮЗ»</h1>
+                <p class="header__subtitle">Гарантируем своевременную и качественную сдачу объектов </p>
+              </div>
             </div>
           </header>
           <div class="greeting__text">
@@ -46,7 +47,7 @@
             <p>Наша задача обеспечить постоянный, стабильный и высокий доход клиентам, сотрудникам и учредителям компании.</p>
           </div>
         </section>
-        <section class="section about">
+        <section class="section about" id="about">
           <h2 class="section__title"> О компании</h2>
           <p>Общество с ограниченной ответственностью «Строительная Компания «СОЮЗ» (сокращенное фирменное название ООО «СК СОЮЗ») зарегистрировано 28 апреля 2012 года.</p>
           <p>Начало деятельности компании – апрель 2012 года. В 2017 году была реарганизация компании и зарегистрирована новая компания Общество с ограниченной ответственностью «Строительная Компания «СОЮЗ» (сокращенное фирменное название ООО «СК СОЮЗ») зарегистрировано 28 апреля 2017 года. </p>
@@ -62,7 +63,7 @@
             </svg>
           </div>
         </section>
-        <section class="section wedo">
+        <section class="section wedo" id="wedo">
           <h2 class="section__title"> Мы выполняем</h2>
           <ul class="cards">
             <li class="cards__card"> 
@@ -103,7 +104,7 @@
             </li>
           </ul>
         </section>
-        <section class="section clients">
+        <section class="section clients" id="clients">
           <h2 class="section__title"> Наши клиенты</h2>
           <p>Нашими основными стратегическими партнерами - Заказчиками являются крупнейшие сетевые компании, лидеры своих отраслей.</p>
           <p>В активе компании участие в реконструкции объектов для компаний: </p>
@@ -132,7 +133,7 @@
             <li class="letters__letter"><img class="img letters__img" src="img/letter5.png" alt="Рекомендательное письмо 5"></li>
           </ul>
         </section>
-        <section class="section achievements">
+        <section class="section achievements" id="achievements">
           <h2 class="section__title"> Достижения и планы развития</h2>
           <div class="achievements__achievement">
             <div class="achievements__image">
@@ -158,7 +159,7 @@
             </div>
           </div>
         </section>
-        <section class="section objects">
+        <section class="section objects" id="objects">
           <h2 class="section__title"> Примеры объектов</h2>
           <div class="slider">
             <div class="slider__arrow slider__arrow--left">
@@ -181,7 +182,7 @@
                   <p class="slider__contact">Представитель Заказчика на объекте – Токаренко Евгений Борисович, директор по развитию, +7 (985) 643-85 77.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">2 - Ресторан «KFC»</h3>
+                  <h3 class="section__subtitle slider__title">2 - Ресторан «KFC»</h3>
                   <p class="slider__text">МО, г. Одинцово, Можайское шоссе, дом 18А, ресторан «KFC», площадь 220 кв.м., срок выполнения рябот 45 календарных дней. </p>
                   <p class="slider__text">Выполнены работы: демонтаж c сохранением части сетей и оборудования, замена остекления, ремонт фасада здания, выравнивание стен и перегородок, устройство полов, стен и потолков, устройство гидроизоляций, электромонтажные работы, устройство систем водоснабжения и канализации, ревизия и ремонт систем вентиляции, системы отопления и кондиционирования, плиточные работы, малярные работы, врезка в газовый трубопровод, работы по благоустройству прилегающей территории.</p>
                   <div class="slider__image"> <img src="img/2.jpg" alt="2 - Ресторан «KFC»"></div>
@@ -197,70 +198,70 @@
                   <p class="slider__contact">Представитель Заказчика на объекте – Игор Милованович, директор, +7(495) 933-56-10.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">4 - магазин «BOGNER»</h3>
+                  <h3 class="section__subtitle slider__title">4 - магазин «BOGNER»</h3>
                   <p class="slider__text">Москва, проспект Мира, дом 68, магазин «BOGNER», площадь 310 кв.м., генподряд, срок выполнения работ 70 календарных дней.</p>
                   <p class="slider__text">Выполнены работы: демонтаж, перенос входной группы, замена остекления, фасадные работы, гранитные работы на фасаде здания, устройство антресоли, устройство монолитного перекрытия, огнеупорная обработка, устройство полов, устройство перегородок, выравнивание стен, устройство потолков, монтаж стальных конструкций, устройство систем отопления, водоснабжения, канализации, энергоснабжения и освещения, проектирование и монтаж систем вентиляции, кондиционирования, охранной сигнализации, пожарной сигнализации, видеонаблюдения, акустики, укладка массивной паркетной доски, укладка керамогранита и керамической плитки, малярные работы, монтаж противопожарных дверей, монтаж лестниц из массива дуба, монтаж и подключение рекламы, пуско-наладочные работы.</p>
                   <div class="slider__image"> <img src="img/4.jpg" alt="4 - магазин «BOGNER»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Целунова Ирина, директор, +7(495) 232-09-01.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">5 - Отделение Банка «РУССКИЙ СТАНДАРТ»</h3>
+                  <h3 class="section__subtitle slider__title">5 - Отделение Банка «РУССКИЙ СТАНДАРТ»</h3>
                   <p class="slider__text">Москва, Новокосинская улица, дом 35, отделение Банка «РУССКИЙ СТАНДАРТ», площадь 220 кв.м., функция Генпроектировщика и Генподрядчика, срок выполнения работ 70 календарных дней, разработка и согласование в надзорных органах проектной документации, оформление допусков в производство работ, оформление сдаточной документации.</p>
                   <p class="slider__text">Выполнены работы: демонтаж, укрепление конструкций, огнеупорная обработка, обеспечение класса безопасности, замена остекления, гранитные работы на фасаде, устройство полов, перегородок, стен, потолков, систем ЭО, ВК, ОВиК, СКС, ОПС, СКД, ОТС, ОТВ, отделочные работы, подключение оборудования, монтаж и подключение рекламы, изготовление мебели, пуско-наладочные работы.</p>
                   <div class="slider__image"> <img src="img/5-1.jpg" alt="5 - Отделение Банка «РУССКИЙ СТАНДАРТ»"><img src="img/5-2.jpg" alt="5 - Отделение Банка «РУССКИЙ СТАНДАРТ»"><img src="img/5-3.jpg" alt="5 - Отделение Банка «РУССКИЙ СТАНДАРТ»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Никита Сосков, руководитель проекта, +7(916) 671-52-30.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">6 - Торгово-выставочный комплекс «MobelExpo» и «DekorExpo»</h3>
+                  <h3 class="section__subtitle slider__title">6 - Торгово-выставочный комплекс «MobelExpo» и «DekorExpo»</h3>
                   <p class="slider__text">Москва, Нахимовский проспект, дом 24, Торгово-выставочный комплекс «MobelExpo» и «DekorExpo», где располагаются магазины, в которых представленны знаменитые марки мебели, сантехники, напольных покрытий, света, дверей и многое другое. Площадь более 7000 кв.м., функция Генпроектировщика, срок выполнения работ 6 месяцев. Разработка и согласование в надзорных органах проектной документации, оформление допусков в производство работ, оформление сдаточной документации. </p>
                   <p class="slider__text">Выполнены работы: демонтаж.</p>
                   <div class="slider__image"> <img src="img/6.jpg" alt="6 - Торгово-выставочный комплекс «MobelExpo» и «DekorExpo»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Колчев Геннадий Владимирович, главный инженер проекта, +7(499) 246-01-47.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">7 - Офис «МОСКОВСКИЙ ШЕЛК»</h3>
+                  <h3 class="section__subtitle slider__title">7 - Офис «МОСКОВСКИЙ ШЕЛК»</h3>
                   <p class="slider__text">Москва, Большой Саввинский переулок, дом 4, офис «МОСКОВСКИЙ ШЕЛК», площадь 350 кв.м., срок выполнения работ 90 календарных дней.</p>
                   <p class="slider__text">Выполнены работы: демонтаж, возведение кирпичных перегородок, устройство дополнительного ввода электрической мощности, замена системы отопления с радиаторами, водоснабжение, энергоснабжение, освещение, вентиляция, кондиционирование, устройство полов, устройство гидроизоляций, устройство подиумов, устройство потолков, малярные работы, устройство антресолей, расчет нагрузок, монтаж металлоконструкций, пробивка проемов в несущих стенах, усиление перекрытий, устройство ограждений, декоративная облицовка стен, пескоструйная очистка стен, подключение оборудования, пуско-наладка.</p>
                   <div class="slider__image"> <img src="img/7-1.jpg" alt="7 - Офис «МОСКОВСКИЙ ШЕЛК»"><img src="img/7-2.jpg" alt="7 - Офис «МОСКОВСКИЙ ШЕЛК»"><img src="img/7-3.jpg" alt="7 - Офис «МОСКОВСКИЙ ШЕЛК»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Колчев Геннадий Владимирович, главный инженер проекта, +7(499) 246-01-47.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">8 - Сеть аптек «еАптека»</h3>
+                  <h3 class="section__subtitle slider__title">8 - Сеть аптек «еАптека»</h3>
                   <p class="slider__text">Москва, Буккунинская улица, дом 1/3 и Мастеркова улица, дом 3, сеть аптек «еАптека», площадь 160 кв.м. и 145 кв.м., срок выполнения работ 60 календарных дней.</p>
                   <p class="slider__text">Выполнены работы: демонтаж, возведение ГКЛВ перегородок, устройство дополнительного ввода электрической мощности, замена системы отопления с радиаторами, водоснабжение, энергоснабжение, освещение, вентиляция, кондиционирование, устройство полов, устройство гидроизоляций, устройство подиумов, устройство потолков, малярные работы, монтаж металлоконструкций, пробивка проемов в несущих стенах, усиление проемов, устройство крыльца с ограждением, декоративная облицовка стен, подключение оборудования, пуско-наладка.</p>
                   <div class="slider__image"> <img src="img/8-1.jpg" alt="8 - Сеть аптек «еАптека»"><img src="img/8-2.jpg" alt="8 - Сеть аптек «еАптека»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Петров Сергей Анатольевич, директор проекта, +7(903) 508-00-64.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">9 - Торговый Центр «ПЕРВОМАЙСКИЙ»</h3>
+                  <h3 class="section__subtitle slider__title">9 - Торговый Центр «ПЕРВОМАЙСКИЙ»</h3>
                   <p class="slider__text">Москва, 9-я Парковая улица, дом 62, Торговый Центр «ПЕРВОМАЙСКИЙ», где располагаются магазины известных брендов и марок, площадь 600 кв.м., срок выполнения работ 45 календарных дней.</p>
                   <p class="slider__text">Выполнены работы: демонтаж старых металло-конструкций с последующей заменой на новые в стилобатной части здания.</p>
                   <div class="slider__image"> <img src="img/9.jpg" alt="Торговый Центр «ПЕРВОМАЙСКИЙ»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Подушкин Игорь Юрьевич, главный инженер проекта, +7(916) 711-67-57.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">10 - Кафе «РОГАЛИК»</h3>
+                  <h3 class="section__subtitle slider__title">10 - Кафе «РОГАЛИК»</h3>
                   <p class="slider__text">Москва, Земляной Вал улица, дом 38-40/15, строение 9, кафе «РОГАЛИК», площадь 154 кв.м.</p>
                   <p class="slider__text">Выполнены работы: демонтаж, замена остекления, устройство антресолей, расчет нагрузок, монтаж металлоконструкций, пробивка проемов в несущих стенах, усиление проемов, устройство ограждений, пескоструйная обработка стен, устройство дополнительного ввода электрической мощности, частичная замен а системы отопления, водоснабжение, энергоснабжение, освещение, устройство полов, устройство гидроизоляции, устройство подиума, устройство потолков, малярные работы, декоративная штукатурка потолка и стен.</p>
                   <div class="slider__image"> <img src="img/10-1.jpg" alt="10 - Кафе «РОГАЛИК»"><img src="img/10-2.jpg" alt="10 - Кафе «РОГАЛИК»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Буняков Роман Анатольевич, директор, +7(925) 748-88-22.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">11 - Кафе «ГЛАВ ХЛЕБ»</h3>
+                  <h3 class="section__subtitle slider__title">11 - Кафе «ГЛАВ ХЛЕБ»</h3>
                   <p class="slider__text">Москва, Семеновская набережная, дом 2/1, строение 1, кафе «ГЛАВ ХЛЕБ», плащадь 350 кв.м.</p>
                   <p class="slider__text">Выполнены работы: демонтаж, частичная замена системы отопления с радиаторами, водоснабжение, энергоснабжение, освещение, вентиляция с монтажом выше конька крыши по фасаду здания, кондиционирование, устройство полов, устройство гидроизоляции, устройство потолков, малярные работы, устройство металлоконструкций антресолей для инженерного оборудования, пробивка проемов в несущих стенах с усилением проемов. </p>
                   <div class="slider__image"> <img src="img/11.jpg" alt="11 - Кафе «ГЛАВ ХЛЕБ»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Буняков Роман Анатольевич, директор, +7(925) 748-88-22.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">12 - Бар «BLAK HAT BAR»</h3>
+                  <h3 class="section__subtitle slider__title">12 - Бар «BLAK HAT BAR»</h3>
                   <p class="slider__text">Москва, Садовая- Каретная улица, дом 20, бар «BLAK HAT BAR» относится к управлению таких заведений, как «Law&Son», «Stay True», «Help», площадь 153 кв.м., срок выполнения работ 60 календарных дней.</p>
                   <p class="slider__text">Выполнены работы: демонтаж, частичная замена системы отопления, водоснабжение, энергоснабжение, освещение, устройство полов, устройство гидроизоляций, устройство подиумов, устройство потолков, малярные работы, устройство антресолей, расчет нагрузок, монтаж металлоконструкций, пробивка проемов в несущих стенах, усиление проемов, устройство ограждений, декоративная облицовка стен.</p>
                   <div class="slider__image"> <img src="img/12-1.jpg" alt="12 - Бар «BLAK HAT BAR»"><img src="img/12-2.jpg" alt="12 - Бар «BLAK HAT BAR»"></div>
                   <p class="slider__contact">Представитель Заказчика на объекте – Петрусевич Тимур, архитектор, руководитель проекта, +7(906) 083-86-16.</p>
                 </li>
                 <li class="swiper-slide slider__slide">
-                  <h3 class="section__subtitle">13 -  кафе «СТОЛИЧНОЕ»</h3>
+                  <h3 class="section__subtitle slider__title">13 -  кафе «СТОЛИЧНОЕ»</h3>
                   <p class="slider__text">Москва, Красная площадь, дом 3, кафе «СТОЛИЧНОЕ», площадь 20 кв.м. </p>
                   <p class="slider__text">Выполнены работы: демонтаж, алмазное бурение отверстий, замена системы водоснабжения и канализации, энергоснабжение и освещение, укладка плитки, малярные работы.</p>
                   <div class="slider__image"> <img src="img/13-1.jpg" alt="13 -  кафе «СТОЛИЧНОЕ»"><img src="img/13-2.jpg" alt="13 -  кафе «СТОЛИЧНОЕ»"></div>
@@ -270,34 +271,48 @@
             </div>
           </div>
         </section>
-        <section class="footer">
-          <div class="footer__text">
-            <div class="logo"><img class="img" src="img/logo.png" alt="Логотип СК Союз"></div>
-            <p class="footer__slogan">Гарантируем своевременную и качественную сдачу объектов</p>
-          </div>
-          <footer class="footer__info">
-            <p>Общество с ограниченной ответственностью «Строительная Компания «СОЮЗ»</p>
-            <p>Юридический адрес организации: 127106, г. Москва, Гостиничный проезд, д. 8, кор. 1, этаж 4, офис 401.</p>
-            <p>ИНН 7725371164; КПП 771501001; ОКПО 15508879</p><a class="phone phone__footer" href="tel:+74991307716">тел.: +7 499 130 77 16</a>
+        <section class="footer" id="footer">
+          <footer class="footer__wrapper">
+            <div class="footer__info">
+              <div class="menu menu--footer footer__menu">
+                <ul class="menu__list menu__list--footer">
+                  <li class="menu__item menu__item--footer"><a class="menu__link menu__link--footer" href="#about">О компании</a></li>
+                  <li class="menu__item menu__item--footer"><a class="menu__link menu__link--footer" href="#wedo">Виды работ</a></li>
+                  <li class="menu__item menu__item--footer"><a class="menu__link menu__link--footer" href="#clients">Наши клиенты</a></li>
+                  <li class="menu__item menu__item--footer"><a class="menu__link menu__link--footer" href="#achievements">Достижения и планы развития</a></li>
+                  <li class="menu__item menu__item--footer"><a class="menu__link menu__link--footer" href="#objects">Примеры объектов</a></li>
+                </ul>
+              </div>
+              <div class="footer__text"><a class="phone phone--footer footer__phone" href="tel:+74991307716"> 
+                  <div class="phone__svg">
+                    <svg class="svg">
+                      <use xlink:href="img/sprite.svg#phone"></use>
+                    </svg>
+                  </div><span>+7 499 130 77 16</span></a>
+                <div class="footer__company">
+                  <p>Общество с ограниченной ответственностью «Строительная Компания «СОЮЗ»</p>
+                  <p>Юридический адрес организации: 127106, г. Москва, Гостиничный проезд, д. 8, кор. 1, этаж 4, офис 401.</p>
+                  <p>ИНН 7725371164; КПП 771501001; ОКПО 15508879</p>
+                </div>
+              </div>
+            </div>
           </footer>
           <div class="footer__map" id="map"></div>
         </section>
       </div>
       <aside class="dots">
         <ul class="dots__list">
-          <li class="dots__item"><a class="dots__link dots__link_active" href="#" data-scroll-to="0"></a></li>
-          <li class="dots__item"><a class="dots__link" href="#" data-scroll-to="1"></a></li>
-          <li class="dots__item"><a class="dots__link" href="#" data-scroll-to="2"></a></li>
-          <li class="dots__item"><a class="dots__link" href="#" data-scroll-to="3"></a></li>
-          <li class="dots__item"><a class="dots__link" href="#" data-scroll-to="4"></a></li>
-          <li class="dots__item"><a class="dots__link" href="#" data-scroll-to="5"></a></li>
-          <li class="dots__item"><a class="dots__link" href="#" data-scroll-to="6"></a></li>
+          <li class="dots__item"><a class="dots__link dots__link_active" href="#greeting"></a></li>
+          <li class="dots__item"><a class="dots__link" href="#about"></a></li>
+          <li class="dots__item"><a class="dots__link" href="#wedo"></a></li>
+          <li class="dots__item"><a class="dots__link" href="#clients"></a></li>
+          <li class="dots__item"><a class="dots__link" href="#achievements"></a></li>
+          <li class="dots__item"><a class="dots__link" href="#objects"></a></li>
+          <li class="dots__item"><a class="dots__link" href="#footer"></a></li>
         </ul>
       </aside>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.6/mobile-detect.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
     <script src="js/script.min.js"></script>
   </body>
